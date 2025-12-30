@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "archives.tater.amethystchant.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EnchantmentMenuMixin",
+    "EnchantmentMenuSlot2Mixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
